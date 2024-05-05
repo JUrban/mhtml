@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<div class="add">
+
+<span class="kw">let </span><font color="Maroon" title="c1">A</font>, <font color="Maroon" title="c2">B</font>, <font color="Maroon" title="c3">a</font> be    <a href="hidden.html#M1" title="HIDDEN:mode.1">set</a> ; <a class="txt" onmouseover="tooltip.show('hs',this)" onmouseout="tooltip.hide()" onclick="hs(this)" href="javascript:()"><span class="comment"><font color="firebrick">::  thesis: </font></span></a><span class="hide"> ( <font color="Maroon" title="c1">A</font> <a href="tarski.html#R1" title="TARSKI:pred.1">c=</a> <font color="Maroon" title="c2">B</font> &amp; <font color="Maroon" title="c2">B</font> <a href="tarski.html#R1" title="TARSKI:pred.1">c=</a> <font color="Maroon" title="c1">A</font> <a href="xboole_0.html#K2" title="XBOOLE_0:func.2">\/</a> <span class="p1"><a href="tarski.html#K1" title="TARSKI:func.1">{</a><span class="default"><font color="Maroon" title="c3">a</font></span><a href="tarski.html#K1" title="TARSKI:func.1">}</a></span> &amp;  not <font color="Maroon" title="c1">A</font> <a href="xboole_0.html#K2" title="XBOOLE_0:func.2">\/</a> <span class="p1"><a href="tarski.html#K1" title="TARSKI:func.1">{</a><span class="default"><font color="Maroon" title="c3">a</font></span><a href="tarski.html#K1" title="TARSKI:func.1">}</a></span> <a href="hidden.html#R1" title="HIDDEN:pred.1">=</a> <font color="Maroon" title="c2">B</font> implies <font color="Maroon" title="c1">A</font> <a href="hidden.html#R1" title="HIDDEN:pred.1">=</a> <font color="Maroon" title="c2">B</font> )</span><br/>
+
+<span class="kw">assume </span><span class="kw">that </span><br/><a NAME="E1:146"/><span class="lab"><font color="Green" title="E56">A1</font></span>: 
+<font color="Maroon" title="c1">A</font> <a href="tarski.html#R1" title="TARSKI:pred.1">c=</a> <font color="Maroon" title="c2">B</font>
+ <span class="kw">and </span><br/><a NAME="E2:146"/><span class="lab"><font color="Green" title="E57">A2</font></span>: 
+<font color="Maroon" title="c2">B</font> <a href="tarski.html#R1" title="TARSKI:pred.1">c=</a> <font color="Maroon" title="c1">A</font> <a href="xboole_0.html#K2" title="XBOOLE_0:func.2">\/</a> <span class="p1"><a href="tarski.html#K1" title="TARSKI:func.1">{</a><span class="default"><font color="Maroon" title="c3">a</font></span><a href="tarski.html#K1" title="TARSKI:func.1">}</a></span>
+ ; <a class="txt" onmouseover="tooltip.show('hs',this)" onmouseout="tooltip.hide()" onclick="hs(this)" href="javascript:()"><span class="comment"><font color="firebrick">::  thesis: </font></span></a><span class="hide"> ( <font color="Maroon" title="c1">A</font> <a href="xboole_0.html#K2" title="XBOOLE_0:func.2">\/</a> <span class="p1"><a href="tarski.html#K1" title="TARSKI:func.1">{</a><span class="default"><font color="Maroon" title="c3">a</font></span><a href="tarski.html#K1" title="TARSKI:func.1">}</a></span> <a href="hidden.html#R1" title="HIDDEN:pred.1">=</a> <font color="Maroon" title="c2">B</font> or <font color="Maroon" title="c1">A</font> <a href="hidden.html#R1" title="HIDDEN:pred.1">=</a> <font color="Maroon" title="c2">B</font> )</span><br/>
+
+<span class="kw">assume </span><span class="kw">that </span><br/><a NAME="E3:146"/><span class="lab"><font color="Green" title="E58">A3</font></span>: 
+<font color="Maroon" title="c1">A</font> <a href="xboole_0.html#K2" title="XBOOLE_0:func.2">\/</a> <span class="p1"><a href="tarski.html#K1" title="TARSKI:func.1">{</a><span class="default"><font color="Maroon" title="c3">a</font></span><a href="tarski.html#K1" title="TARSKI:func.1">}</a></span> <a href="hidden.html#NR2" title="HIDDEN:NR.2">&lt;&gt;</a> <font color="Maroon" title="c2">B</font>
+ <span class="kw">and </span><br/><a NAME="E4:146"/><span class="lab"><font color="Green" title="E59">A4</font></span>: 
+<font color="Maroon" title="c1">A</font> <a href="hidden.html#NR2" title="HIDDEN:NR.2">&lt;&gt;</a> <font color="Maroon" title="c2">B</font>
+ ; <a class="txt" onmouseover="tooltip.show('hs',this)" onmouseout="tooltip.hide()" onclick="hs(this)" href="javascript:()"><span class="comment"><font color="firebrick">::  thesis: </font></span></a><span class="hide"> contradiction</span><br/>
+
+<a NAME="E5:146"/><span class="lab"><font color="Green" title="E60">A5</font></span>: 
+ not <font color="Maroon" title="c1">A</font> <a href="xboole_0.html#K2" title="XBOOLE_0:func.2">\/</a> <span class="p1"><a href="tarski.html#K1" title="TARSKI:func.1">{</a><span class="default"><font color="Maroon" title="c3">a</font></span><a href="tarski.html#K1" title="TARSKI:func.1">}</a></span> <a href="tarski.html#R1" title="TARSKI:pred.1">c=</a> <font color="Maroon" title="c2">B</font>
+ 
+<span class="kw">by</span> <span class="lab"><a class="txt" href="#E2:146"><span class="lab"><font color="Green" title="E57">A2</font></span></a>, <a class="txt" href="#E3:146"><span class="lab"><font color="Green" title="E58">A3</font></span></a>, <a class="ref" href="xboole_0.html#D10" onmouseover="rs('xboole_0/D10')" onmouseout="rh()">XBOOLE_0:def 10</a></span>;<br/>
+<a NAME="E6:146"/><span class="lab"><font color="Green" title="E61">A6</font></span>: 
+ not <font color="Maroon" title="c3">a</font> <a href="hidden.html#R2" title="HIDDEN:pred.2">in</a> <font color="Maroon" title="c2">B</font>
+ 
+<div><a class="txt" onmouseover="tooltip.show('hs2',this)" onmouseout="tooltip.hide()" onclick="hs2(this)" href="javascript:()" title="146_1"><span class="kw">proof </span></a><div class="add">
+
+<span class="kw">assume </span><a NAME="E1:146_1"/>
+<font color="Maroon" title="c3">a</font> <a href="hidden.html#R2" title="HIDDEN:pred.2">in</a> <font color="Maroon" title="c2">B</font>
+ ; <a class="txt" onmouseover="tooltip.show('hs',this)" onmouseout="tooltip.hide()" onclick="hs(this)" href="javascript:()"><span class="comment"><font color="firebrick">::  thesis: </font></span></a><span class="hide"> contradiction</span><br/>
+
+<a NAME="E2:146_1"/><span class="kw">then </span>
+<span class="p1"><a href="tarski.html#K1" title="TARSKI:func.1">{</a><span class="default"><font color="Maroon" title="c3">a</font></span><a href="tarski.html#K1" title="TARSKI:func.1">}</a></span> <a href="tarski.html#R1" title="TARSKI:pred.1">c=</a> <font color="Maroon" title="c2">B</font>
+ 
+<span class="kw">by</span> <span class="lab"><a class="txt" href="zfmisc_1.html#E1"><span class="lab"><font color="Green" title="E1">Lm1</font></span></a></span>;<br/>
+<span class="kw">hence </span><a NAME="E3:146_1"/>
+contradiction
+ <span class="kw">by</span> <span class="lab"><a class="txt" href="#E1:146"><span class="lab"><font color="Green" title="E56">A1</font></span></a>, <a class="txt" href="#E5:146"><span class="lab"><font color="Green" title="E60">A5</font></span></a>, <a class="ref" href="xboole_1.html#T8" onmouseover="rs('xboole_1/T8')" onmouseout="rh()">XBOOLE_1:8</a></span>; <a class="txt" onmouseover="tooltip.show('hs',this)" onmouseout="tooltip.hide()" onclick="hs(this)" href="javascript:()"><span class="comment"><font color="firebrick">::  thesis: </font></span></a><span class="hide"> verum</span><br/>
+
+
+</div><span class="kw">end;</span></div>
+<a NAME="E7:146"/>
+ not <font color="Maroon" title="c2">B</font> <a href="tarski.html#R1" title="TARSKI:pred.1">c=</a> <font color="Maroon" title="c1">A</font>
+ 
+<span class="kw">by</span> <span class="lab"><a class="txt" href="#E1:146"><span class="lab"><font color="Green" title="E56">A1</font></span></a>, <a class="txt" href="#E4:146"><span class="lab"><font color="Green" title="E59">A4</font></span></a>, <a class="ref" href="xboole_0.html#D10" onmouseover="rs('xboole_0/D10')" onmouseout="rh()">XBOOLE_0:def 10</a></span>;<br/>
+<span class="kw">hence </span><a NAME="E8:146"/>
+contradiction
+ <span class="kw">by</span> <span class="lab"><a class="txt" href="#E2:146"><span class="lab"><font color="Green" title="E57">A2</font></span></a>, <a class="txt" href="#E6:146"><span class="lab"><font color="Green" title="E61">A6</font></span></a>, <a class="ref" href="zfmisc_1.html#T135" target="_self" onmouseover="rs('zfmisc_1/T135')" onmouseout="rh()">Th135</a></span>; <a class="txt" onmouseover="tooltip.show('hs',this)" onmouseout="tooltip.hide()" onclick="hs(this)" href="javascript:()"><span class="comment"><font color="firebrick">::  thesis: </font></span></a><span class="hide"> verum</span><br/>
+
+
+</div>
